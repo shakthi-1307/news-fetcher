@@ -1,8 +1,8 @@
 async function getNews(topic) {
 
     const response =
-        await fetch(
-            `https://your-render-url.onrender.com/news?topic=${topic}`
+    await fetch(
+        `https://news-fetcher-mymo.onrender.com/news?topic=${topic}`
     );
 
     const data = await response.json();
@@ -11,9 +11,6 @@ async function getNews(topic) {
 
     if (data.articles) {
         displayNews(data.articles);
-    }
-    else {
-        alert("Error fetching news");
     }
 }
 
