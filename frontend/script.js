@@ -1,8 +1,8 @@
 async function getNews(topic) {
 
     const response =
-    await fetch(
-        `http://127.0.0.1:8000/news?topic=${topic}`
+        await fetch(
+            `https://your-render-url.onrender.com/news?topic=${topic}`
     );
 
     const data = await response.json();
