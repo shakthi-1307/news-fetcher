@@ -14,6 +14,6 @@ The js script sends request to the backend with 'topic' that is entered by the u
 
 This project is mainly focused on learning and understanding the fundamentals of web development and APIs.
 
-![alt text](image.png)
+![alt text](frontend/image.png)
 
-![alt text](image-1.png)
+![alt text](frontend/image-1.png)
